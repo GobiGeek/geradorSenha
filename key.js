@@ -3,8 +3,6 @@ function gerarSenha(comprimento) {
     'ABCDEFGHIJKLMNOPQRSTUWXYZabcdefghijklmnopqrstuwxyz123456789!#$%&*()'
   let senha = ''
 
-  const teste = 0
-
   for (let i = 0; i < comprimento; i++) {
     let randomIndex = Math.floor(Math.random() * caracteres.length)
     senha += caracteres[randomIndex]
